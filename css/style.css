@@ -42,3 +42,55 @@ header {
     margin-bottom: 55px;
 }
 
+
+/* Banner Styles */
+.banner-container {
+    background-image: url('../images/hero_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    text-align: center;
+}
+
+.banner-container img {
+    width: 220px;
+}
+
+.banner-container a {
+    text-decoration: none;
+}
+
+.banner-title {
+    font-size: 56px;
+    margin-top: 15px;
+}
+
+.banner-description {
+    width: 790px;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 20px;
+    color: rgb(70, 68, 68);
+}
+
+.banner-btn {
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: rgb(13, 19, 33);
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: all 0.3s;
+}
+
+.banner-btn:hover {
+    background-color: #CF711F;
+    color: white;
+}
+
