@@ -183,3 +183,37 @@ header {
     color: white;
 }
 
+
+
+/* Inspiration Styles */
+.inspiration-container {
+    width: 1090px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.inspiration-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 25px;
+    gap: 10px;
+}
+
+.inspiration-description {
+    width: 700px;
+    text-align: center;
+}
+
+.inspiration-video {
+    border: 2px solid rgb(150, 148, 148);
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.inspiration-video iframe {
+    width: 100%;
+    border-radius: 10px;
+}
