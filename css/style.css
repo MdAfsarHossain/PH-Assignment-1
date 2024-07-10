@@ -1,0 +1,44 @@
+/* Inter Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Navbar Styles */
+.main-nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 105px;
+}
+
+.nav-btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid rgb(182, 177, 177);
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.nav-btn:hover {
+    background-color: rgb(182, 177, 177);
+    color: white;
+}
+
+header {
+    margin-bottom: 55px;
+}
+
