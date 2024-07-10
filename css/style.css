@@ -286,3 +286,55 @@ header {
 .cur-card-3 {
     background: rgba(255, 223, 0, 0.05);
 }
+
+
+/* Next Target Styles */
+.next-container {
+    width: 1090px;
+    margin: 0 auto;
+    margin-top: 85px;
+    margin-bottom: 65px;
+}
+
+.next-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.next-card {
+    border: 2px solid rgb(124, 121, 121);
+    border-radius: 10px;
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    line-height: 16px
+}
+
+.next-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.next-card-description {
+    line-height: 24px;
+    color: #6c6d6e;
+}
+
+.next-card-text a {
+    color: black;
+    font-weight: 700;
+}
+
+.next-card-title {
+    color: black;
+}
+
+.next-card img {
+    width: 60px;
+    height: 60px;
+}
