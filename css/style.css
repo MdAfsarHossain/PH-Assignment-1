@@ -94,3 +94,92 @@ header {
     color: white;
 }
 
+
+/* Web Development Styles */
+.web-container {
+    background: rgba(13, 19, 33, 0.02);
+    width: 1090px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 50px 85px;
+    margin-bottom: 45px;
+}
+
+.web-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.web-title {
+    text-align: center;
+}
+
+.web-description {
+    text-align: center;
+    width: 750px;
+    margin-top: 10px;
+    line-height: 22px;
+    color: rgb(70, 68, 68);
+}
+
+.web-card {
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    border-radius: 5px;
+    padding: 25px 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 55px;
+}
+
+.web-card-2 {
+    background: linear-gradient(300deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.card-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-left-side {
+    width: 550px;
+    margin-right: 400px;
+}
+
+.card-right-side img {
+    width: 200px;
+}
+
+.web-card-2-left-side {
+    margin-left: 55px;
+    margin-right: 0 !important;
+}
+
+.card-description {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.card-btn {
+    padding: 10px 15px;
+    border: 2px solid rgb(158, 153, 153);
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
+    color: #979899;
+    transition: all 0.3s;
+}
+
+.card-btn:hover {
+    background-color: #CF711F;
+    border: 2px solid #CF711F;
+    color: white;
+}
+
