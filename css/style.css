@@ -406,3 +406,31 @@ header {
     color: white;
 }
 
+
+/* Footer Styles */
+.footer-container {
+    background: rgba(13, 19, 33, 0.03);
+    height: 85px;
+    padding: 20px 30px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 1090px;
+    margin: 0 auto;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.footer-title {
+    font-size: 24px;
+}
+
